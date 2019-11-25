@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
+	// Start the lambda entry point function
 	lambda.Start(metrics.UpdateMetrics)
 }
